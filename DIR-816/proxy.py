@@ -1,19 +1,11 @@
 #-*- coding:utf-8 -*-
-#这个可以用
 #import lib-file
 import urllib
 import socket
 from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer 
 import argparse 
 
-info = open("proxy3.txt","ab")
-cgis = open("cgis.txt","ab")
 paths = []
-def loadinfo(text):
-    info.write(text.encode("utf-8"))
-
-def loadinfo0(text):
-    cgis.write(text.encode("utf-8"))
 
 #define handler function class
 class MyHandler(BaseHTTPRequestHandler):

@@ -6,4 +6,4 @@ There is a approaches to get routers’ many information without unauthenticatio
 
 But we could delete this command and page will not be redirected to login page with a simple [proxy script](https://github.com/dahua966/Routers-vuls/blob/master/DIR-816/proxy.py). Then we could see all the information about routers.
 
-Vulnerable targets include but are not limited to the lastest firmware versions of DIR-816(A1-V1.06),  DIR-817LW(A1-1.04)
+Vulnerable targets include but are not limited to the lastest firmware versions of DIR-816(A1-V1.06)

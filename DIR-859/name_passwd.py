@@ -1,5 +1,10 @@
 # -*- coding:utf-8 -*-
 #get username and passwd from DIR-817LW,DIR-868,,,
+# Acknowledgement
+# Thanks to the partners who discovered the vulnerability together：
+# Wei Xie
+# Zhen-hua Wang
+# En-Ze Wang
 
 import requests, os
 from lxml import etree

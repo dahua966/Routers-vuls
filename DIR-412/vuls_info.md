@@ -11,6 +11,7 @@ Attackers can clear log file by this request.
 ![poc2](https://github.com/dahua966/Routers-vuls/blob/master/DIR-412/poc2.png)
 #### Acknowledgement
 Thanks to the partners who discovered the vulnerability together：
+
 Jian-bin Ye
 
 Wei Xie

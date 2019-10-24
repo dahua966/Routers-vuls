@@ -5,6 +5,7 @@ you can get the WIFI SSID and password
 
 #### Acknowledgement
 Thanks to the partners who discovered the vulnerability together：
+Jian-bin Ye
 
 Wei Xie
 

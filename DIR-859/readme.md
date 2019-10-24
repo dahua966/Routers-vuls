@@ -13,7 +13,7 @@ In file `/etc/services/DEVICE.TIME.php`,
    ...
    189				'	ntpclient -h $SERVER4 -i 5 -s -4 > /dev/console\n'.
 ```
-<<<<<<< HEAD
+
 The $SERVER variable is spliced into the string of the command execution, resulting in command injection. So atacker could inject arbitrary code into the string and execute it. The exploit script is exp.py. 
 #### Acknowledgement
 Thanks to the partners who discovered the vulnerability together：
@@ -23,6 +23,3 @@ Wei Xie
 Zhen-hua Wang
 
 En-Ze Wang
-=======
-The $SERVER variable is spliced into the string of the command execution, resulting in command injection. So atacker could inject arbitrary code into the string and execute it. The exploit script is rce.py. 
->>>>>>> eced444f0dc75cba4b0832e82f86a2e0075888ad

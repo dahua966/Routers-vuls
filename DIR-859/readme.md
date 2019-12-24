@@ -15,6 +15,10 @@ In file `/etc/services/DEVICE.TIME.php`,
 ```
 
 The $SERVER variable is spliced into the string of the command execution, resulting in command injection. So atacker could inject arbitrary code into the string and execute it. The exploit script is exp.py. 
+Affected device:
+DIR-859
+DIR-850
+DIR-110
 #### Acknowledgement
 Thanks to the partners who discovered the vulnerability together：
 

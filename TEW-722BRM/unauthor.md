@@ -14,10 +14,6 @@ http://targetip/status/status_vdsl_statistic.shtml
 
 ![poc](https://github.com/dahua966/Routers-vuls/blob/master/TEW-722BRM/DSL_statistic.jpg)
 
-A vulnerability is in the 'MNU_access_failure.htm' page of the Netgear DGN2200, version DGN2200-V1.0.0.58_7.0.57, which can allow a remote attacker to access this page without any authentication. 
-
-
-
 #### Acknowledgement
 Thanks to the partners who discovered the vulnerability together：
 

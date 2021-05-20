@@ -16,7 +16,6 @@ except:
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-# url = 'http://58.237.50.225/'
 if len(sys.argv)<2:
     print("Usage: python27 getCred.py http://127.0.0.1")
     exit()

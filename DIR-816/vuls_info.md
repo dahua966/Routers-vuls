@@ -1,4 +1,4 @@
-#### info of vulnerability
+### info of vulnerability
 There is a approaches to get routers’ many information without unauthentication.When GET the pages(eg.version.asp) without login, the response will contain a js section directing you to the login page, like this
 ```
  top.location.href = "/dir_login.asp"; 
@@ -8,4 +8,5 @@ But we could delete this command and page will not be redirected to login page w
 
 Vulnerable targets include but are not limited to the lastest firmware versions of DIR-816(A1-V1.06)
 
-
+### CVE ID 
+CVE-2019-17507

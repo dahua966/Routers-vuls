@@ -19,11 +19,4 @@ Affected device:
 DIR-859
 DIR-850
 DIR-110
-#### Acknowledgement
-Thanks to the partners who discovered the vulnerability together：
 
-Wei Xie
-
-Zhen-hua Wang
-
-En-Ze Wang

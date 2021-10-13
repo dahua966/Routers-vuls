@@ -33,7 +33,6 @@ try:
     tree.xpath("//ntp/enable")[0].text = "1"
     tree.xpath("//ntp/server")[0].text = "ntp1.dlink.com; (" + COMMAND + ") & exit; "
     tree.xpath("//ntp6/enable")[0].text = "1"
-    data = etree.tostring(tree)
     # print(data)
 except:
     print_exc()
@@ -51,7 +50,7 @@ try:
     if result.lower() != "ok":
         print("Failed!")
         print(resp.text)
-        sys.exit()
+        exit()
     print("OK")
 except:
     print("error!")

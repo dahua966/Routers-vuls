@@ -4,21 +4,14 @@ There are several pages in TrendNet TEW-722BRM can be accessed without authoriza
 #### PoC
 http://targetip/status/status_statistic.shtml
 
-![poc](https://github.com/dahua966/Routers-vuls/blob/master/TEW-722BRM/status_statistic.jpg)
+![poc](status_statistic.jpg)
 
 http://targetip/status/traffic_log.shtml
 
-![poc](https://github.com/dahua966/Routers-vuls/blob/master/TEW-722BRM/traffic_log.jpg)
+![poc](traffic_log.jpg)
 
 http://targetip/status/status_vdsl_statistic.shtml
 
-![poc](https://github.com/dahua966/Routers-vuls/blob/master/TEW-722BRM/DSL_statistic.jpg)
+![poc](DSL_statistic.jpg)
 
-#### Acknowledgement
-Thanks to the partners who discovered the vulnerability together：
 
-Wei Xie
-
-Zhen-hua Wang
-
-En-Ze Wang
